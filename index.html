@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .bgimg{
+        background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-evenly;
+        color: blue;
+        position: fixed;
+        background-color: grey;
+        width: 100%;
+        padding: 1%;
+        font-size: 20px;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        width: 30%;
+    }
+    .section{
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 50%;
+        padding-top: 10%;
+
+    }
+    .s2{
+        margin-top: 10%;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+    .card1,.card2,.card3{
+        height: 40vh;
+        width: 20vw;
+        border: 2px solid blue;
+        text-align: center;
+        padding: 3%;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+        margin-top: 15%;
+    }
+    .dots{
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+    }
+    @media only screen  and (width<600px){
+      .cards,.footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20%;
+      }  
+     .card1,.card2,.card3,.f1,.f2,.f3{
+        width: 70%;
+        margin: 2%;
+     }
+    }
+
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+     <div class="bgimg" style="width: 100VW; height: 100vh;">
+     <nav class="flex">
+        <div class="flex1">
+            <p>travel</p>
+        </div>
+        <div class="flex2">
+            <p>home</p>
+            <p>services</p>
+            <p>contact us</p>
+        </div>
+     </nav>
+     <div class="section">
+     <h1>Fuel mind <br> travel</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, corrupti nisi repellendus ad voluptate excepturi omnis obcaecati a eveniet molestias quia temporibus minima accusantium, repudiandae officia minus quo tempore totam?</p>
+     <button style="background-color: white; color: blueviolet; width: 20%; height: 5%; padding: 1%; border: none; border-radius: 5PX;">lets go now!</button>
+    </div>
+    </div>
+
+
+    <div class="s2">
+        <h1>start your vacation with lots of services</h1>
+        <div class="cards">
+        <div class="card1">
+        <img src="https://themewagon.github.io/chariteam/img/team-2.jpg" alt="" height="40%" width="50%" style="border-radius: 2%;">
+        <p style="color: orangered; font-size: 20px;">ship cruise</p> 
+                <p>250 properties </p>
+        </div>
+        <div class="card2">
+            <img src="https://themewagon.github.io/chariteam/img/team-2.jpg" alt="" height="40%" width="50%" style="border-radius: 2%;">
+            <p style="color: orangered; font-size: 20px;">ship cruise</p> 
+            <p>250 properties </p>
+            </div>
+            <div class="card3">
+                <img src="https://themewagon.github.io/chariteam/img/team-2.jpg" alt="" height="40%" width="50%" style="border-radius: 2%;">
+                <p style="color: orangered; font-size: 20px;">ship cruise</p> 
+                <p>250 properties </p>
+                    </div>        
+        </div>        
+    </div>
+
+    <div class="footer" style="background-color: blueviolet;">
+        <div class="f1">
+            <h1><u>quick</u> links</h1>
+            <h2>terms and conditins</h2>
+            <h3>privacy polocy</h3>
+            <h3>help</h3>
+            <h3>tour</h3>
+        </div>
+        <div class="f2">
+            <h1><u>quick</u> links</h1>
+            <h2>terms and conditins</h2>
+            <h3>privacy polocy</h3>
+            <h3>help</h3>
+            <h3>tour</h3>
+        </div>
+        <div class="f3">
+            <h1> <u>quick</u> links</h1>
+            <h2>terms and conditins</h2>
+            <h3>privacy polocy</h3>
+            <h3>help</h3>
+            <h3>tour</h3>
+        </div>
+        <div class="f4">
+            <h1><u>conn</u>ect</h1>
+            <div class="dots">
+            <p style="width: 20%; height: 15%; background-color: white; border-radius: 30%; color: white;">..</p>
+            <p style="width: 20%; height: 15%; background-color: white; border-radius: 30%; color: white;">..</p>
+            <p style="width: 20%; height: 15%; background-color: white; border-radius: 30%; color: white;">..</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
